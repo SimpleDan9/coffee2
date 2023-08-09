@@ -1,0 +1,326 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FEFCF7;
+}
+.header{
+    margin-top: 30px;
+}
+.nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    height: 26px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+}
+.menu-item{
+    list-style: none;
+    display: flex;
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.logo{
+    width: 236px;
+    height: 26px;
+}
+.menu-item:hover{
+    color: #000;
+    cursor: pointer;
+}
+.logo:hover, .logo img{
+    scale: 1.5;
+}
+.container.banner-wrap{
+    height: 600px;
+    border-radius: 10px;
+    background: #A2A2A2;
+    margin-top: 30px;
+    
+}
+.banner-content{
+    width: 493px;
+    padding: 90px 702px 116px 85px;
+}
+.banner-title{
+   color: #FEFCF7;
+   font-family: Fraunces 9pt;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 72px;
+}
+.banner-text{
+  width: 445px;
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+.banner-btn{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #0E8784;
+    border: none;
+    color:#FEFCF7;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.collection{
+    margin-top: 100px;
+}
+.container.collection-wrap{
+    width: 1100px;
+    height: 350px;
+    background-image: url(./images/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 90% 70%;
+    background-position: top;
+    position: relative;
+}
+.collection-items{
+    position: absolute;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: -4%;
+}
+.collection-item{
+    width: 23%;
+    height: 100%;
+}
+.item-img{
+    width: 100%;
+    height: 55%;
+}
+.collection-title{
+    text-align: center;
+    color: #333D4B;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.collection-text{
+    color: #333D4B;
+    text-align: center;
+   font-family: Barlow;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+    line-height: 26px; 
+}
+/* section choice shu yerdan boshlanadi */
+
+.container.choice-wrap{
+    border-radius: 10px;
+    background: #2C343E;
+    height: 600px;
+    margin-top: 300px;
+    position: relative;
+}
+.choice-content{
+    width:550px;
+    padding: 100px 204px 468px 284px;
+}
+.choice-title{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px
+}
+.choice-text{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.choice-cards{
+    position: absolute;
+    width: 1000px;
+    height: 55%;
+    top:60%;
+    left:6%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.choice-card{
+    width: 31%;
+    height: 100%;
+    border-radius: 8px;
+    background: #0E8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice-card-content{
+    text-align: center;
+}
+.choice-card-img{
+    width: 70px;
+    height: 70px;
+}
+.choice-card-img.truck{
+    width: 70px;
+    height: 50px;
+}
+.choice-card-title{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 40px;
+}
+.choice-card-text{
+    margin-top: 40px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 250px;
+}
+
+.steps-wrap{
+    width: 1045px;
+    margin-top: 200px;
+    margin-left: 78px;
+}
+
+.steps-line{
+    width: 760px;
+    height: 3px;
+    background-color: #FDD6BA;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.steps-circle{
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background-color:#FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+.step-list{
+    width: 100%;
+    margin-top: 70px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.step-item{
+    width: 285px;
+    height: 355px;
+}
+.step-number{
+    color: #FDD6BA;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    opacity: 08;
+}
+.step-list-title{
+    color: #333D4B;
+    font-family: Fraunces 9pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+    margin-top: 50px;
+}
+.step-list-text{
+    margin-top: 50px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.step-btn{
+    border: none;
+    padding: 15px 25px;
+    background: #0E8784;
+    border-radius: 6px;
+    margin-top: 100px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;   
+}
+
+.footer-wrap{
+    margin-top:100px;
+    margin-bottom: 60px;
+    background:#2C343E ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+.footer-menu{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    height: 15px;
+}
+.footer-menu-item{
+    margin-left: 20px;
+    color: #83888F;
+    font-size: 12px;
+}
+.footer-img{
+    width: 200px;
+    height: 24px;
+}
+.footer-menu-item:hover{
+    color: white;
+    cursor: pointer;
+}
